@@ -1,6 +1,6 @@
 require "ruby/common/version"
 
-module Ruby
+module RaiseMe
   module Common
     class Error < StandardError; end
     # Your code goes here...

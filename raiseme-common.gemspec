@@ -1,9 +1,9 @@
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "ruby/common/version"
+require "raiseme/common/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "ruby-common"
+  spec.name          = "raiseme-common"
   spec.version       = Ruby::Common::VERSION
   spec.authors       = ["RaiseMe Engineering Team"]
   spec.email         = ["account_eng@raise.me"]
