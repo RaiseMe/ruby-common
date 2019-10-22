@@ -1,4 +1,4 @@
-require "ruby/common/version"
+require "raiseme/common/version"
 
 module RaiseMe
   module Common
