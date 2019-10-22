@@ -4,7 +4,7 @@ require "raiseme/common/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "raiseme-common"
-  spec.version       = Ruby::Common::VERSION
+  spec.version       = RaiseMe::Common::VERSION
   spec.authors       = ["RaiseMe Engineering Team"]
   spec.email         = ["account_eng@raise.me"]
 
