@@ -7,7 +7,7 @@ This gem holds common configurations for Ruby projects at RaiseMe.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'ruby-common', git: 'git@github.com:RaiseMe/ruby-common.git', branch: 'master'
+gem 'raiseme-common', git: 'git@github.com:RaiseMe/ruby-common.git', branch: 'master'
 ```
 
 And then execute:
