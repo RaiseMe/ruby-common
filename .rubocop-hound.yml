@@ -1,14 +1,14 @@
 AllCops:
   Exclude:
-    - "linuxgems/nazrin-ebb7848b15e0/**/*"
-    - "vendor/**/*"
-    - "db/*.rb"
-    - "db/**/*.rb"
-    - "db_portal/*.rb"
-    - "engines/degree_plans/spec/**/*.rb"
-    - "engines/degree_plans/db/*.rb"
-    - "engines/degree_plans/db/**/*.rb"
-    - "config/routes/*.rb"
+    - /**/linuxgems/nazrin-ebb7848b15e0/**/*
+    - /**/vendor/**/*
+    - /**/db/*.rb
+    - /**/db/**/*.rb
+    - /**/db_portal/*.rb
+    - /**/engines/degree_plans/spec/**/*.rb
+    - /**/engines/degree_plans/db/*.rb
+    - /**/engines/degree_plans/db/**/*.rb
+    - /**/config/routes/*.rb
   UseCache: false
   TargetRubyVersion: 2.5
 Style/TrailingUnderscoreVariable:
@@ -116,24 +116,25 @@ Style/MethodCallWithArgsParentheses:
     - swagger_schema
     - swagger_path
     - tag
+    # - to
     - validate
     - validates
     - validates_presence_of
   Exclude:
-    - spec/**/*.rb
-    - factories/**/*.rb
-    - config/routes.rb
-    - '**/spec/**/*.rb'
-    - '**/Gemfile'
-    - '**/*.gemspec'
-    - '**/Rakefile'
-    - '**/*.rake'
+    - /**/spec/**/*.rb
+    - /**/factories/**/*.rb
+    - /**/config/routes.rb
+    - /**/spec/**/*.rb
+    - /**/Gemfile
+    - /**/*.gemspec
+    - /**/Rakefile
+    - /**/*.rake
 Style/SymbolArray:
   EnforcedStyle: percent
   MinSize: 4
   Enabled: true
   Exclude:
-    - config/routes.rb
+    - /**/config/routes.rb
 Style/PercentLiteralDelimiters:
   Description: Use `%`-literal delimiters consistently
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#percent-literal-braces
@@ -162,7 +163,7 @@ Naming/PredicateName:
   - get_
   - set_
   Exclude:
-  - spec/**/*
+  - /**/spec/**/*
 Style/RaiseArgs:
   Description: Checks the arguments passed to raise/fail.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#exception-class-messages
@@ -298,7 +299,7 @@ Metrics/BlockLength:
     - factory
     - define
   Exclude:
-    - '**/*.rake'
+    - /**/*.rake
 Metrics/ParameterLists:
   Description: Avoid parameter lists longer than three or four parameters.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#too-many-params
@@ -344,7 +345,7 @@ Style/Documentation:
   Description: Document classes and non-namespace modules.
   Enabled: true
   Exclude:
-    - '**/spec/**/*.rb'
+    - /**/spec/**/*.rb
 Style/DoubleNegation:
   Description: Checks for uses of double negation (!!).
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#no-bang-bang
