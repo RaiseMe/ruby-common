@@ -130,10 +130,7 @@ Style/MethodCallWithArgsParentheses:
     - '**/*.rake'
 Style/SymbolArray:
   EnforcedStyle: percent
-  MinSize: 4
-  Enabled: true
-  Exclude:
-    - config/routes.rb
+  Enabled: false
 Style/PercentLiteralDelimiters:
   Description: Use `%`-literal delimiters consistently
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#percent-literal-braces
@@ -423,6 +420,7 @@ Naming/VariableNumber:
 Style/WordArray:
   EnforcedStyle: percent
   MinSize: 4
+  Enabled: false
 Style/FormatStringToken:
   EnforcedStyle: template
 Style/BracesAroundHashParameters:
