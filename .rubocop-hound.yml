@@ -116,6 +116,7 @@ Style/MethodCallWithArgsParentheses:
     - swagger_schema
     - swagger_path
     - tag
+    - to
     - validate
     - validates
     - validates_presence_of
