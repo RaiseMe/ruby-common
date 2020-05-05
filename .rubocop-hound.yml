@@ -1,3 +1,4 @@
+require: rubocop-performance
 AllCops:
   Exclude:
     - "linuxgems/nazrin-ebb7848b15e0/**/*"
