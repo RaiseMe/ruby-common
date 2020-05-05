@@ -401,8 +401,6 @@ Lint/LiteralAsCondition:
 Lint/LiteralInInterpolation:
   Description: Checks for literals used in interpolation.
   Enabled: false
-Rails/Date:
-  EnforcedStyle: strict
 Style/RedundantBegin:
   Enabled: false
 Performance/TimesMap:
