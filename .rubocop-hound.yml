@@ -289,6 +289,7 @@ Metrics/BlockLength:
     - operation
     - property
     - shared_examples_for
+    - it_behaves_like
     - swagger_root
     - swagger_schema
     - swagger_path
