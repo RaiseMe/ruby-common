@@ -426,4 +426,4 @@ Style/WordArray:
 Style/FormatStringToken:
   EnforcedStyle: template
 Style/BracesAroundHashParameters:
-  EnforcedStyle: context_dependent
+  Enabled: false
