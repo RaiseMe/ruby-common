@@ -12,6 +12,8 @@ AllCops:
     - "config/routes/*.rb"
   UseCache: false
   TargetRubyVersion: 2.5
+Style/SymbolProc:
+  Enabled: false
 Style/TrailingUnderscoreVariable:
   Enabled: false
 Style/CaseEquality:
