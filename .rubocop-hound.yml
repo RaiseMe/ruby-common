@@ -13,6 +13,9 @@ AllCops:
   UseCache: false
   TargetRubyVersion: 3.0
   NewCops: enable
+  SuggestExtensions:
+    rubocop-minitest: false
+    rubocop-rake: false
 Style/SymbolProc:
   Enabled: false
 Style/TrailingUnderscoreVariable:
@@ -248,7 +251,7 @@ Metrics/AbcSize:
     conditions.
   Enabled: true
   Max: 20
-Metrics/LineLength:
+Layout/LineLength:
   Max: 120
   # To make it possible to copy or click on URIs in the code, we allow lines
   # containing a URI to be longer than Max.
