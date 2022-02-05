@@ -54,9 +54,9 @@ Style/IfUnlessModifier:
   Description: Favor modifier if/unless usage when you have a single-line body.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#if-as-a-modifier
   Enabled: true
-Layout/IndentFirstArgument:
+Layout/FirstArgumentIndentation:
   Enabled: false
-Layout/IndentFirstArrayElement:
+Layout/FirstArrayElementIndentation:
   Enabled: false
 Style/OptionHash:
   Description: Do not use option hashes when you can use keyword arguments.
@@ -157,7 +157,7 @@ Naming/PredicateName:
   - is_
   - has_
   - have_
-  NamePrefixBlacklist:
+  ForbiddenPrefixes:
   - is_
   - has_
   - get_
@@ -240,7 +240,7 @@ Style/TrailingCommaInHashLiteral:
   - comma
   - consistent_comma
   - no_comma
-Layout/AlignParameters:
+Layout/ParameterAlignment:
   Enabled: false
 Metrics/AbcSize:
   Description: A calculated magnitude based on number of assignments, branches, and
@@ -394,7 +394,7 @@ Style/WhenThen:
 Lint/EachWithObjectArgument:
   Description: Check for immutable argument given to each_with_object.
   Enabled: true
-Lint/HandleExceptions:
+Lint/SuppressedException:
   Description: Do not suppress exception.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#dont-hide-exceptions
   Enabled: true
@@ -427,5 +427,3 @@ Style/WordArray:
   Enabled: false
 Style/FormatStringToken:
   EnforcedStyle: template
-Style/BracesAroundHashParameters:
-  Enabled: false
