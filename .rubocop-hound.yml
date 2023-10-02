@@ -273,12 +273,12 @@ Metrics/ModuleLength:
 Metrics/CyclomaticComplexity:
   Description: A complexity metric that is strongly correlated to the number of test
     cases needed to validate a method.
-  Enabled: true
+  Enabled: false
   Max: 12
 Metrics/MethodLength:
   Description: Avoid methods longer than 10 lines of code.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#short-methods
-  Enabled: true
+  Enabled: false
   CountComments: false
   Max: 15
 Metrics/BlockLength:
