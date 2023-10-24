@@ -251,6 +251,7 @@ Metrics/AbcSize:
     conditions.
   Enabled: true
   Max: 20
+  CountRepeatedAttributes: false
 Layout/LineLength:
   Max: 120
   # To make it possible to copy or click on URIs in the code, we allow lines
