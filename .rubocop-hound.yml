@@ -246,9 +246,7 @@ Style/TrailingCommaInHashLiteral:
     - consistent_comma
     - no_comma
 Layout/HashAlignment:
-  Enabled: true
-  EnforcedHashRocketStyle: table
-  EnforcedColonStyle: table
+  Enabled: false
 Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
 Layout/ParameterAlignment:
