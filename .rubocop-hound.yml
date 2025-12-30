@@ -432,3 +432,14 @@ Style/WordArray:
   Enabled: false
 Style/FormatStringToken:
   EnforcedStyle: template
+
+# Hash formatting rules
+Layout/HashAlignment:
+  Enabled: false
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: consistent
+Style/HashSyntax:
+  EnforcedStyle: ruby19
+  EnforcedShorthandSyntax: either
+Layout/MultilineHashKeyLineBreaks:
+  Enabled: true
